@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar</title>
+</head>
+<body>
+    
+  
+    <!-------------START HEADER--------------->
+
+    <header>
+        <i class="fa-solid fa-bars" id="meun-bar" onclick="showmeun()"></i>
+
+        <a href="#"><h1><span>S</span>olima<span>N</span></h1></a>
+        <nav class="Nav-Link">
+            <a href="#">Home</a>
+            <a href="#">about</a>
+            <a href="#">protucts</a>
+            <a href="#">category</a>
+            <a href="#">progects</a>
+        </nav>
+        <div class="icon-Nav">
+            <i class="fa-solid fa-magnifying-glass" onclick="showbar()" id="searchbtn"></i> 
+            
+            <i class="fa-solid fa-user" onclick="username()" id="uesr"></i>
+        </div>
+
+        <form action="" class="form-bar">
+            <input type="search" id="search" placeholder="what your loogin for ..">
+            <label for="search" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+        
+    </header>
+
+<div class="login-form">
+
+    <form action="">
+        <i class="fa-solid fa-xmark" id="close" onclick="hide()"></i>
+        <h3>LOGIN</h3>
+        <input type="text"  id="box" placeholder="Enter your email">
+        <input type="password"  id="box" placeholder="Enter your password">
+        <input type="submit" id="btn" value="Login Now">
+        <input type="checkbox"  id="remember">
+        <label for="remember">Remember</label>
+        <p>Forget Password?<a href="#">Click Here</a></p>
+        <p>Don't Have Acount?<a href="#">Sign Up</a></p>
+
+    </form>
+</div>
+    <!-------------END HEADER--------------->
+
+
+
+
+
+
+    <script src="mian.js"></script>
+
+</body>   
+</html>
